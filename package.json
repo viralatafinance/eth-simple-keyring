@@ -1,6 +1,6 @@
 {
-  "name": "eth-simple-keyring",
-  "version": "4.2.0",
+  "name": "viralata-simple-keyring",
+  "version": "1.0.1",
   "description": "A simple standard interface for a series of Ethereum private keys.",
   "keywords": [
     "ethereum",
@@ -30,27 +30,27 @@
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write"
   },
   "dependencies": {
-    "@metamask/eth-sig-util": "^4.0.0",
-    "ethereumjs-util": "^7.0.9",
-    "randombytes": "^2.1.0"
+    "@metamask/eth-sig-util": "4.0.0",
+    "ethereumjs-util": "7.0.9",
+    "randombytes": "2.1.0"
   },
   "devDependencies": {
-    "@ethereumjs/tx": "^3.1.1",
-    "@lavamoat/allow-scripts": "^1.0.6",
-    "@metamask/auto-changelog": "^2.5.0",
-    "@metamask/eslint-config": "^8.0.0",
-    "@metamask/eslint-config-jest": "^8.0.0",
-    "@metamask/eslint-config-nodejs": "^8.0.0",
-    "@types/jest": "^26.0.24",
-    "eslint": "^7.30.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.3.6",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "jest": "^27.0.6",
-    "prettier": "^2.3.2",
-    "prettier-plugin-packagejson": "^2.2.11"
+    "@ethereumjs/tx": "3.1.1",
+    "@lavamoat/allow-scripts": "1.0.6",
+    "@metamask/auto-changelog": "2.5.0",
+    "@metamask/eslint-config": "8.0.0",
+    "@metamask/eslint-config-jest": "8.0.0",
+    "@metamask/eslint-config-nodejs": "8.0.0",
+    "@types/jest": "26.0.24",
+    "eslint": "7.30.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-jest": "24.3.6",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "jest": "27.0.6",
+    "prettier": "2.3.2",
+    "prettier-plugin-packagejson": "2.2.11"
   },
   "engines": {
     "node": ">=12.0.0"
